@@ -1,9 +1,23 @@
 {
-  "geode": "v5.5.2",
-  "gd": "2.2081",
-  "version": "v1.0.0-beta.1",
-  "id": "mauflaco.synctime",
-  "name": "SyncTime",
-  "developer": "Mauflaco",
-  "description": "Muestra la hora real en Geometry Dash. ¡Versión Beta en pruebas!"
+	"geode": "3.0.0-beta.1",
+	"gd": "2.206",
+	"id": "mauflaco.synctime",
+	"version": "v1.0.0",
+	"name": "SyncTime",
+	"developer": "Mauflaco",
+	"description": "Reloj mundial para el menú principal.",
+	"settings": {
+		"pais-seleccionado": {
+			"name": "Seleccionar País",
+			"type": "string",
+			"default": "Venezuela (Caracas)",
+			"control": {
+				"type": "selection",
+				"options": [
+					"Venezuela (Caracas)", "España (Madrid)", "Colombia (Bogotá)", 
+					"Argentina (Buenos Aires)", "México (CDMX)", "Estados Unidos (Washington D.C.)"
+				]
+			}
+		}
+	}
 }
