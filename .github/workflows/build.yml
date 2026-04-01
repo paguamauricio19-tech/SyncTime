@@ -24,8 +24,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build Mod
-        uses: geode-sdk/build-geode-action@main
+      - name: Build Geode Mod
+        uses: geode-sdk/build-geode-action@v2
         with:
           target: ${{ matrix.config.target }}
           combine: true
