@@ -8,5 +8,5 @@ add_geode_mod(
     SyncTime
     ${MOD_ID}
     SOURCES
-        src/main.cpp
+     main.cpp
 )
